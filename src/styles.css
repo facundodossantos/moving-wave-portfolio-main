@@ -93,10 +93,16 @@ a {
     right: 0;
     top: 27vh;
 }
+p {
+    line-height: 30px;
+}
 
 @media only screen and (max-width: 600px) {
 .socials {
     display: none;
+}
+h1 {
+    font-size: 30px;
 }
 }
 
@@ -122,6 +128,7 @@ a:hover {
     color: rgb(255,0,166);
 }
 
+
 /*work page*/
 
 .work-details {
@@ -141,6 +148,7 @@ a:hover {
         padding: 5px;
     }
 }
+
 
 /*about me*/
 
